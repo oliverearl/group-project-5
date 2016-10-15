@@ -1,4 +1,4 @@
-package uk.ac.aber.cs221.group5.jUnit;
+package uk.ac.aber.cs221.group5.test.logic;
 
 import static org.junit.Assert.assertTrue;
 
