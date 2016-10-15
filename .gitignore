@@ -21,7 +21,6 @@ target/
  
 # Package Files #
 #.jar commented out for pre-built MYSQL-JDBC Connector
-#*.jar
 *.war
 *.ear
 *.db
