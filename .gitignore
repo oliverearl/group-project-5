@@ -1,30 +1,6 @@
-###---------------------------------------------------------------------------
-### Eclipse + Java git ignore 
-# Added and adapted gitignore from
-# http://www.bmchild.com/2012/06/git-ignore-for-java-eclipse-project.html
+# This should be for project wide ignores only
+# i.e. files which are ignored in TaskerMAN and TaskerCLI
 
-*.txt
-
-# Directories #
-/build/
-/bin/
-target/
- 
-# MS Word #
-# Auto recovery version
-~$*
- 
-# OS Files #
-.DS_Store
- 
-*.class
- 
-# Package Files #
-#.jar commented out for pre-built MYSQL-JDBC Connector
-*.war
-*.ear
-*.db
- 
 ######################
 # Windows
 ######################
@@ -49,55 +25,3 @@ Desktop.ini
 .Spotlight-V100
 .Trashes
  
- 
-######################
-# Eclipse
-######################
- 
-*.pydevproject
-.metadata
-bin/**
-tmp/**
-tmp/**/*
-*.tmp
-*.bak
-*.swp
-*~.nib
-/src/main/resources/rebel.xml
-
-# External tool builders
-.externalToolBuilders/
- 
-# Locally stored "Eclipse launch configurations"
-*.launch
- 
-# CDT-specific
-.cproject
- 
-# PDT-specific
-.buildpath
-
-######################
-# phpStorm & TaskerMAN
-######################
-
-/src/php/TaskerMAN/.idea/
-/src/php/TaskerMAN/tmp/
-workspace.xml
-error.txt
-/tmp/
-
-#Save files
-connSaveFile.txt
-memberSaveFile.txt
-taskSaveFile.txt
-
-
-####--------------------End of java git ignore-----------------------
-#####################
-# Visual Paradigm
-#####################
-
-*.vpp~1
-*.vpp~2
-
